@@ -1,0 +1,67 @@
+body {
+        font-family: Arial;
+        text-align: center;
+        background: #e8dccb;
+      }
+      span {
+        font-size: 2rem;
+      }
+      .card-container {
+        margin: 10px 0;
+      }
+      .card {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .player1-card {
+        background: #c2a689;
+        color: #3e2c20;
+        border: 1px solid #3e2c20;
+      }
+      .player2-card {
+        background: #a68a64;
+        color: #3e2c20;
+        border: 1px solid #3e2c20;
+      }
+      .choice-buttons input {
+        background-color: #f5e2c8;
+        border-radius: 20px;
+        border: 1px solid #ab9f8c;
+        margin: 5px;
+        padding: 8px 12px;
+      }
+      .choice-buttons input:hover {
+        background-color: #ebd8bf;
+        border: 1px solid #968b7a;
+      }
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        color: #5c4432;
+        font-size: 3em;
+        letter-spacing: 4px;
+      }
+      #Dice {
+        color: #5c4432;
+      }
+      hr {
+        border: none;
+        border-top: 2px solid #ab9f8c;
+      }
+      #go {
+        background-color: #c2a689;
+        width: 70px;
+        height: 43px;
+        border-radius: 20px;
+        border: 2px solid #3e2c20;
+      }
+      #go:hover {
+        background-color: #b1987d;
+      }
+      #message {
+        margin: 5px;
+        font-weight: bold;
+        color: #d1a584;
+      }
