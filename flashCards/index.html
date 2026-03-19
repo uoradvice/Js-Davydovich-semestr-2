@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcards</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Falshcrads</h1>
+      <div id="field">
+        <div id="addCard">
+          <input type="text" id="front" autocomplete="off" />
+          <input type="text" id="back" autocomplete="off" />
+          <input type="button" value="add" id="addCardButton" />
+        </div>
+        <div id="showCards">
+          <table>
+            <thead>
+              <tr>
+                <td>Front</td>
+                <td>Back</td>
+                <td>Learned</td>
+                <td>Delete</td>
+                <td>Edit</td>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div calss="StudyMode">
+      <input type="button" id="startBtn" value="Start Stady" />
+
+      <h2>Study Mode</h2>
+
+      <div id="cardDisplay">
+        start study mode
+      </div>
+
+      <div id="modeControl">
+        <input type="button" value="previous card" id="prev">
+        <input type="button" value="flip card" id="flip">
+        <input type="button" value="next card" id="next">
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
